@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {font-family: arial; box-sizing: border-box;}
+body {font-family: 'Montserrat', sans-serif; background: #a9a9a9;}
+.centrar  {text-align: center;}
+h1 {color: navy; font-size: 26px;}
+.container {width: 70%; margin: 50px auto; max-width: 670px; padding: 19px; border: 2px solid grey; background: whitesmoke; border-radius: 15px; box-shadow: 12px 12px 12px black;}
+label {display: inline-block; width: 120px; vertical-align: top; color:black; font-size:17px;}
+input {width: 190px; height: 35px; margin-left: 20px; color:navy; font-size:18px; border: 2px solid #757575; vertical-align: center; border-radius: 5px;}
+input:hover {color:yellow; background: #757575;}
+textarea {width: 190px; margin-left: 20px; color:navy; font-size:16px;}
+textarea:hover {color:yellow; background: #757575;}
+.enviar {width: 100px; height: 50px; font-size: 24px; border-radius: 7px; box-shadow: 2px 2px 2px grey; box-shadow: 2px 2px 2px #9a9a9a;}
+.card {width: 80%; margin: auto; padding: 20px; background: whitesmoke;}
+aside {width: 39.33px; height: 42px; display:  inline-block; margin-right: 2px;}
+.rojo {background-color: red;}
+.amarillo {background-color: yellow;}
+.verde {background-color: green;}
+.azul {background-color: blue;}
+.errores {color: navy;font-size: 16px; text-align: center;}
+.formulari {width: 55%; margin: auto;}
+.box {float: right; width: 211px;}
+.dni{text-align: center;}
+
+@media only screen and (min-width: 720px) and (max-width:5360px){
+    .dni, .msg {
+        margin-left: 30%;
+    }
+    .box {
+        margin-right: 3%;
+    }
+}
